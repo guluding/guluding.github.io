@@ -19,6 +19,38 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo-Backup</title>
+    <url>/2020/07/hexo-backup/</url>
+    <content><![CDATA[<p>由于更换电脑和系统造成博客没有持续进行下去，所以要解决在不同电脑维护、配置、找回博客内容。</p>
+<p>总结得到以下两种方法：</p>
+<ol>
+<li>通过 GIT 使用不同分支存储不同的内容<ul>
+<li>生成静态网页</li>
+<li>整个驱动程序</li>
+</ul>
+</li>
+<li>通过 onedrive 同步</li>
+</ol>
+<h2 id="Hexo-搭建"><a href="#Hexo-搭建" class="headerlink" title="Hexo 搭建"></a>Hexo 搭建</h2><h3 id="安装-GIT"><a href="#安装-GIT" class="headerlink" title="安装 GIT"></a>安装 GIT</h3><p>git <a href="https://git-scm.com/downloads" target="_blank" rel="noopener">下载地址</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;你的GitHub用户名&quot;</span><br><span class="line">git config --global user.email &quot;你的GitHub注册邮箱&quot;</span><br><span class="line">ssh-keygen -t rsa -C &quot;你的GitHub注册邮箱&quot;</span><br></pre></td></tr></table></figure>
+
+<p>详细 git <a href="https://git-scm.com/book/en/v2" target="_blank" rel="noopener">操作手册</a></p>
+<h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># Ubuntu system</span><br><span class="line">sudo apt update &amp;&amp; sudo apt upgrade -y</span><br><span class="line">sudo apt install nodejs</span><br><span class="line">sudo apt install npm</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="安装-HEXO"><a href="#安装-HEXO" class="headerlink" title="安装 HEXO"></a>安装 HEXO</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># install hexo</span><br><span class="line">npm install hexo-cli -g</span><br><span class="line"># initiallzation</span><br><span class="line">hexo init blog</span><br><span class="line">cd blog</span><br><span class="line"># Install related plug-ins</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<h3 id=""><a href="#" class="headerlink" title=""></a></h3><p>Hexo 安装详情参照 <a href="https://hexo.io/" target="_blank" rel="noopener">hexo文档</a></p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
   </entry>
   <entry>
     <title>Python threads</title>
