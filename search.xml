@@ -422,4 +422,30 @@
         <tag>threads</tag>
       </tags>
   </entry>
+  <entry>
+    <title>BurpSuite安装</title>
+    <url>/2020/07/burpsuit-install/</url>
+    <content><![CDATA[<h2 id="Burpsuite简介"><a href="#Burpsuite简介" class="headerlink" title="Burpsuite简介"></a>Burpsuite简介</h2><p><img src="https://github.com/guluding/Images/blob/master/burpsuite_install_0.png?raw=true" alt=""></p>
+<a id="more"></a>
+
+<p>BurpSuite 是用于攻击web应用程序的集成平台。它包含了许多工具，并为这些工具设计了许多接口，以促进加快攻击应用程序的过程。</p>
+<p>所有的工具都共享一个能处理并显示 HTTP 消息，持久性，认证，代{过}{滤}理，日志，警报的一个强大的可扩展的框架。</p>
+<ul>
+<li>拦截代{过}{滤}理（Proxy），你可以检查和更改浏览器与目标应用程序间的流量；</li>
+<li>可感知应用程序的网络爬虫（Spider），它能完整的枚举应用程序的内容和功能；</li>
+<li>高级扫描器，执行后它能自动地发现web应用程序的安全漏洞；</li>
+<li>入侵测试工具（Intruder），用于执行强大的定制攻击去发现及利用不同寻常的漏洞；</li>
+<li>重放工具（Repeater），一个靠手动操作来触发单独的HTTP 请求，并分析应用程序响应的工具；</li>
+<li>会话工具（Sequencer），用来分析那些不可预知的应用程序会话令牌和重要数据项的随机性的工具；</li>
+<li>解码器，进行手动执行或对应用程序数据者智能解码编码的工具；</li>
+<li>扩展性强，可以让你加载Burp Suite的扩展，使用你自己的或第三方代码来扩展Burp Suit的功能。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Programming</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
 </search>
