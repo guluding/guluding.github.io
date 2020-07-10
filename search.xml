@@ -57,6 +57,7 @@
 ]]></content>
       <tags>
         <tag>hexo</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -175,14 +176,19 @@
   <entry>
     <title>Git基础操作</title>
     <url>/2020/07/git-commands/</url>
-    <content><![CDATA[<p>本文针对初级用户，从最简单的讲起，但是需要读者对 <code>git</code> 基本用法有所了解。同时，本文覆盖了下面 5 个你命令的几乎所有的常用用法，所以对于熟练用户也有参教价值。<a id="more"></a></p>
+    <content><![CDATA[<p>本文针对初级用户，从最简单的讲起，但是需要读者对 <code>git</code> 基本用法有所了解。</p>
 <h2 id="Git-基本概念"><a href="#Git-基本概念" class="headerlink" title="Git 基本概念"></a>Git 基本概念</h2><p>我们先来理解下 Git 工作区、暂存区和版本库概念</p>
 <ul>
-<li><strong>工作区</strong>：就是人在电脑里能看到的目录</li>
-<li><strong>暂存区</strong>：英文叫 stage，或 index。一般存放在 “.git目录” 下的 index 文件(.git/index)中，所以我们把暂存区有时也叫作索引(index)。</li>
-<li><strong>版本库</strong>：工作区有一个隐藏目录 .git，这个不算工作区，而是 Git 的版本库。</li>
+<li><p><strong>工作区</strong>：就是人在电脑里能看到的目录</p>
+</li>
+<li><p><strong>暂存区</strong>：英文叫 stage，或 index。一般存放在 “.git目录” 下的 index 文件(.git/index)中，所以我们把暂存区有时也叫作索引(index)。</p>
+</li>
+<li><p><strong>版本库</strong>：工作区有一个隐藏目录 .git，这个不算工作区，而是 Git 的版本库。</p>
+<a id="more"></a>
+
+</li>
 </ul>
-<p>下面这个图展示了工作区、版本库中的暂存区和版本库之间的关系</p>
+<p>下面这个图展示了工作区、版本库中的暂存区和版本库之间的关系。</p>
 <p><img src="https://github.com/guluding/Images/blob/master/git_diagram.jpg?raw=true" alt=""></p>
 <p>图中的 objects 标识的区域为 Git 的对象库，实际位于 <code>.git/objects</code> 目录下，里面包含了创建的各种对象及内容。</p>
 <h2 id="Git-基本操作"><a href="#Git-基本操作" class="headerlink" title="Git 基本操作"></a>Git 基本操作</h2><h3 id="git-init"><a href="#git-init" class="headerlink" title="git init"></a>git init</h3><p>用 <code>git init</code> 在目录中创建新的 Git 仓库，你可以在任何时候、任何目录中这么做，完全是本地化的。</p>
