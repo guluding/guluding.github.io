@@ -1,13 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>burpsuite-install</title>
+    <title>BurpSuite破解安装</title>
     <url>/2020/07/burpsuite-install/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h2 id="Burpsuite简介"><a href="#Burpsuite简介" class="headerlink" title="Burpsuite简介"></a>Burpsuite简介</h2><img src="https://github.com/guluding/Images/blob/master/burpsuite_install_0.png?raw=true" style="zoom:65%;" />
+
+<a id="more"></a>
+
+<p>BurpSuite 是用于攻击web应用程序的集成平台。它包含了许多工具，并为这些工具设计了许多接口，以促进加快攻击应用程序的过程。</p>
+<p>所有的工具都共享一个能处理并显示 HTTP 消息，持久性，认证，代{过}{滤}理，日志，警报的一个强大的可扩展的框架。</p>
+<ul>
+<li>拦截代{过}{滤}理（Proxy），你可以检查和更改浏览器与目标应用程序间的流量；</li>
+<li>可感知应用程序的网络爬虫（Spider），它能完整的枚举应用程序的内容和功能；</li>
+<li>高级扫描器，执行后它能自动地发现web应用程序的安全漏洞；</li>
+<li>入侵测试工具（Intruder），用于执行强大的定制攻击去发现及利用不同寻常的漏洞；</li>
+<li>重放工具（Repeater），一个靠手动操作来触发单独的HTTP 请求，并分析应用程序响应的工具；</li>
+<li>会话工具（Sequencer），用来分析那些不可预知的应用程序会话令牌和重要数据项的随机性的工具；</li>
+<li>解码器，进行手动执行或对应用程序数据者智能解码编码的工具；</li>
+<li>扩展性强，可以让你加载Burp Suite的扩展，使用你自己的或第三方代码来扩展Burp Suit的功能。</li>
+</ul>
+<p>安装环境为 WINDOW10</p>
+<h2 id="安装-java"><a href="#安装-java" class="headerlink" title="安装 java"></a>安装 java</h2><p>因为 burpsuite 是在 java 环境下运行的，所以首先应该配置好 java 环境</p>
+<ol>
+<li><p>安装 jdk-9_windows-x64 ，下载链接:  <a href="https://drive.google.com/file/d/11lamt-WgSOwWzacJS-2eHNYgdkcrZEV0/view?usp=sharing" target="_blank" rel="noopener">https://drive.google.com/file/d/11lamt-WgSOwWzacJS-2eHNYgdkcrZEV0/view?usp=sharing</a></p>
+<p>​                                                                  <a href="https://pan.baidu.com/s/1QK1P2bnoUpcwh84p6artCg" target="_blank" rel="noopener">https://pan.baidu.com/s/1QK1P2bnoUpcwh84p6artCg</a> 密码：h0ei</p>
+</li>
+<li><p>点击<strong>下一步</strong>。</p>
+</li>
+</ol>
+<p><img src="https://github.com/guluding/Images/blob/master/java_install_0.png?raw=true" alt=""></p>
+<p><img src="https://github.com/guluding/Images/blob/master/java_install_1.png?raw=true" alt=""></p>
+<p><img src="https://github.com/guluding/Images/blob/master/java_install_2.png?raw=true" alt=""></p>
+<ol start="3">
+<li><p>打开 powershell 检查 java 是否安装完成</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">java --version</span><br><span class="line">java 9</span><br><span class="line">Java(TM) SE Runtime Environment (build 9+181)</span><br><span class="line">Java HotSpot(TM) 64-Bit Server VM (build 9+181, mixed mode)</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ol>
+<h2 id="安装破解burpsuite"><a href="#安装破解burpsuite" class="headerlink" title="安装破解burpsuite"></a>安装破解burpsuite</h2><p>burpsuite下载地址：<a href="https://drive.google.com/file/d/1lmNpoVKE-sbtM4ImVfcPy00fiQz6EPrK/view?usp=sharing" target="_blank" rel="noopener">https://drive.google.com/file/d/1lmNpoVKE-sbtM4ImVfcPy00fiQz6EPrK/view?usp=sharing</a> </p>
+<p>​                                    <a href="https://pan.baidu.com/s/1nzS390Idqjo88gjreI9m3g" target="_blank" rel="noopener">https://pan.baidu.com/s/1nzS390Idqjo88gjreI9m3g</a> 密码：7hr9</p>
+<ol>
+<li>双击 burp-loader-keygen-2020_2 运行程序</li>
+</ol>
+<p><img src="https://github.com/guluding/Images/blob/master/burpsuite_install_1.png?raw=true" alt=""></p>
+<ol start="2">
+<li>修改License Text文本中的内容为任意字符串</li>
+</ol>
+<p><img src="https://github.com/guluding/Images/blob/master/burpsuite_install_2.png?raw=true" alt=""></p>
+<ol start="3">
+<li>双击 Burp_start_chs</li>
+</ol>
+<p><img src="https://github.com/guluding/Images/blob/master/burpsuite_install_3.png?raw=true" alt=""></p>
+<ol start="4">
+<li>将 keygen 中的 License 复制到弹出的 burpsuite 窗口中，点击<strong>Next</strong>按钮</li>
+</ol>
+<p><img src="https://github.com/guluding/Images/blob/master/burpsuite_install_4.png?raw=true" alt=""></p>
+<ol start="5">
+<li>点击<strong>手动激活</strong>按钮</li>
+</ol>
+<p><img src="https://github.com/guluding/Images/blob/master/burpsuite_install_5.png?raw=true" alt=""></p>
+<ol start="6">
+<li>将复制请求复制到上面Activation Requests 对话框里，再将Activation Response里的复制到下面的对话框里，点击<strong>下一步</strong>。</li>
+</ol>
+<p><img src="https://github.com/guluding/Images/blob/master/burpsuite_install_6.png?raw=true" alt=""></p>
+<ol start="7">
+<li>看到如下提示，说明激活成功了。</li>
+</ol>
+<p><img src="https://github.com/guluding/Images/blob/master/burpsuite_install_7.png?raw=true" alt=""></p>
+]]></content>
+      <categories>
+        <category>NetworkSecurity</category>
+      </categories>
+      <tags>
+        <tag>burpsuite</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/2020/07/hello-world/</url>
+    <url>/2020/06/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <a id="more"></a>
 
@@ -311,7 +383,7 @@
   </entry>
   <entry>
     <title>Python多线程</title>
-    <url>/2020/07/python-thread/</url>
+    <url>/2020/06/python-thread/</url>
     <content><![CDATA[<h2 id="Python多线程简介"><a href="#Python多线程简介" class="headerlink" title="Python多线程简介"></a>Python多线程简介</h2><ul>
 <li>一个应用程序最少有一个进程，而一个进程有一个或多个线程</li>
 <li>Python提供两个线程标准库 <code>_thread</code>  和 <code>threading</code></li>
@@ -420,32 +492,6 @@
       <tags>
         <tag>python</tag>
         <tag>threads</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>BurpSuite安装</title>
-    <url>/2020/07/burpsuit-install/</url>
-    <content><![CDATA[<h2 id="Burpsuite简介"><a href="#Burpsuite简介" class="headerlink" title="Burpsuite简介"></a>Burpsuite简介</h2><p><img src="https://github.com/guluding/Images/blob/master/burpsuite_install_0.png?raw=true" alt=""></p>
-<a id="more"></a>
-
-<p>BurpSuite 是用于攻击web应用程序的集成平台。它包含了许多工具，并为这些工具设计了许多接口，以促进加快攻击应用程序的过程。</p>
-<p>所有的工具都共享一个能处理并显示 HTTP 消息，持久性，认证，代{过}{滤}理，日志，警报的一个强大的可扩展的框架。</p>
-<ul>
-<li>拦截代{过}{滤}理（Proxy），你可以检查和更改浏览器与目标应用程序间的流量；</li>
-<li>可感知应用程序的网络爬虫（Spider），它能完整的枚举应用程序的内容和功能；</li>
-<li>高级扫描器，执行后它能自动地发现web应用程序的安全漏洞；</li>
-<li>入侵测试工具（Intruder），用于执行强大的定制攻击去发现及利用不同寻常的漏洞；</li>
-<li>重放工具（Repeater），一个靠手动操作来触发单独的HTTP 请求，并分析应用程序响应的工具；</li>
-<li>会话工具（Sequencer），用来分析那些不可预知的应用程序会话令牌和重要数据项的随机性的工具；</li>
-<li>解码器，进行手动执行或对应用程序数据者智能解码编码的工具；</li>
-<li>扩展性强，可以让你加载Burp Suite的扩展，使用你自己的或第三方代码来扩展Burp Suit的功能。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Programming</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
       </tags>
   </entry>
 </search>
